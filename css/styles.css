@@ -6,6 +6,9 @@ h1 {
 body {
 	background: url("../img/bg.png");
 }
+#map{
+	margin-top: -60px;
+}
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
