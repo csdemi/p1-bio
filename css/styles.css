@@ -17,6 +17,9 @@ p{
 body {
 	background: url("../img/bg.png");
 }
+a {
+	color:#C9E8ED;
+}
 #map{
 	margin-top: -60px;
 }
