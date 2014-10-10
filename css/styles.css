@@ -20,9 +20,7 @@ body {
 a {
 	color:#C9E8ED;
 }
-#map{
-	margin-top: -60px;
-}
+
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
