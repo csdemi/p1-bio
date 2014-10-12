@@ -12,7 +12,8 @@ h3{
 	font-family: 'Lobster', cursive;
 }
 p{
-	color:#FCF8F7
+	color:#FCF8F7;
+	font-family: 'Philosopher';
 }
 body {
 	background: url("../img/bg.png");
