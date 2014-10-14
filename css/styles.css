@@ -26,3 +26,7 @@ a {
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
 }
+#bio{
+	margin-top: 24px;
+	padding: 48px;
+}
