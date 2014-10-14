@@ -20,6 +20,9 @@ body {
 	background: url("../img/bg.png");
 }
 a {
+	color:#D8FAFF;
+}
+#head{
 	color:#C9E8ED;
 }
 
