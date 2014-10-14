@@ -9,6 +9,7 @@ h2 {
 }
 h3{
 	color: #7DD4CF;
+	background-color: #717F7F;
 	font-family: 'Lobster', cursive;
 }
 p{
@@ -29,4 +30,8 @@ a {
 #bio{
 	margin-top: 24px;
 	padding: 48px;
+}
+#me {
+	margin-top: 24px;
+	border: 25px;
 }
