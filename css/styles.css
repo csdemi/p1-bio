@@ -32,6 +32,12 @@ a {
 	padding: 48px;
 }
 #me {
+	border-image-repeat: 15px 15px 15px 15px;
 	margin-top: 24px;
 	border: 25px;
+}
+#nav{
+	font-size: 20px;
+	font-style: bold;
+	background: #717F7F;
 }
