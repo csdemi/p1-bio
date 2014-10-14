@@ -35,8 +35,11 @@ a {
 	margin-top: 35px;
 	border: 25px;
 }
-#nav{
+#nav {
 	font-size: 20px;
 	font-style: bold;
 	background: #717F7F;
+}
+#bio-links {
+	color: transparent;
 }
