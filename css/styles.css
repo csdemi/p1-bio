@@ -18,8 +18,7 @@ h2 {
 	line-height: 1.3em;
 }
 img {
-	width: 75%;
-	float: left;
+	max-width: 80%;
 }
 /***********************
 COLORS AND FONTS
@@ -34,9 +33,7 @@ a {
 }
 /*Paragraph Formating*/
 p{
-	max-width: 100%;
 	color:#FCF8F7;
-	margin: 0;
 	font-family: 'Lato', sans-serif;
 	font-style: .75em;
 }
@@ -73,7 +70,6 @@ MARGIN AND PADDING
 
 #bio{
 	margin-top: 24px;
-	padding: 48px;
 }
 
 #me {
