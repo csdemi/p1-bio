@@ -1,6 +1,6 @@
 /* Your Website Styles */
 h1 {
-	color: #639AB2;
+	color: #80C7E5;
 	font-family: 'Lobster', cursive;
 }
 h2 {
@@ -23,7 +23,7 @@ a {
 	color:#D8FAFF;
 }
 #head{
-	color:#C9E8ED;
+	color: #7DD4CF;
 }
 
 /* Show Grid */
@@ -41,7 +41,7 @@ a {
 #nav {
 	font-size: 20px;
 	font-style: bold;
-	background: #717F7F;
+	background: #303030;
 }
 #bio-links {
 	color: transparent;
