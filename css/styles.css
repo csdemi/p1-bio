@@ -18,8 +18,8 @@ h2 {
 	line-height: 1.3em;
 }
 img {
-	width: 100%;
-	float: right;
+	width: 75%;
+	float: left;
 }
 /***********************
 COLORS AND FONTS
@@ -38,6 +38,7 @@ p{
 	color:#FCF8F7;
 	margin: 0;
 	font-family: 'Lato', sans-serif;
+	font-style: .75em;
 }
 /*Navigation Formating*/
 nav {
