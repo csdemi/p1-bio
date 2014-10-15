@@ -1,57 +1,99 @@
+/***********************
+GENERAL
+***********************/
 /* Your Website Styles */
-h1 {
-	color: #80C7E5;
+body{
 	font-family: 'Lobster', cursive;
 }
+h1 {
+	color: #80C7E5;
+	font-weight: normal;
+}
+
 h2 {
 	color: #7DD4CF;
 	background-color: #303030;
-	font-family: 'Lobster', cursive;
 	margin-right: 618px;
+	font-weight: normal;
+	line-height: 1.3em;
 }
-h3{
-	color: #7DD4CF;
-	background-color: #303030;
-	font-family: 'Lobster', cursive;
-	margin-right: 315px;
+img {
+	width: 100%;
+	float: right;
 }
-p{
-	color:#FCF8F7;
-	font-family: 'Lato';
-}
+/***********************
+COLORS AND FONTS
+***********************/
+/*Site Body*/
 body {
 	background: url("../img/bg.png");
 }
+/*Links*/
 a {
 	color:#D8FAFF;
 }
-#btext{
-	text-indent: 50px;
+/*Paragraph Formating*/
+p{
+	max-width: 100%;
+	color:#FCF8F7;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
 }
-#head{
+/*Navigation Formating*/
+nav {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.25em;
+	font-style: bold;
+	background: #303030;
+	color: transparent;
+}
+
+nav a{
+	text-decoration: none;
 	color: #7DD4CF;
 }
 
+nav a.selected, nav a:hover{
+	color:#3CFFF4;
+}
+
+
+/***********************
+MARGIN AND PADDING
+***********************/
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
 }
+
+#btext{
+	text-indent: 50px;
+}
+
 #bio{
 	margin-top: 24px;
 	padding: 48px;
 }
+
 #me {
 	margin-top: 35px;
 	border: 25px;
 }
-#nav {
-	font-size: 20px;
-	font-style: bold;
-	background: #303030;
-}
+
 #blinks{
+
 	margin-right: 359px;
 }
-#bio-links {
+
+#bio-links{
+	font-family: 'Lato', sans-serif;
 	color: transparent;
+}
+h3{
+	font-family: 'Lobster',cursive;
+	color: #7DD4CF;
+	background-color: #303030;
+	margin-right: 315px;
+	font-weight: normal;
+	line-height: 1.2em;
 }
