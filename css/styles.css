@@ -3,7 +3,7 @@ GENERAL
 ***********************/
 /* Your Website Styles */
 body{
-	padding: 20px;
+	padding: 5px;
 	font-family: 'Lobster', cursive;
 }
 h1 {
@@ -84,7 +84,6 @@ MARGIN AND PADDING
 
 	margin-right: 359px;
 }
-
 #bio-links{
 	font-family: 'Lato', sans-serif;
 	color: transparent;
