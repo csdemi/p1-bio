@@ -3,6 +3,7 @@ GENERAL
 ***********************/
 /* Your Website Styles */
 body{
+	padding: 20px;
 	font-family: 'Lobster', cursive;
 }
 h1 {
@@ -18,7 +19,8 @@ h2 {
 	line-height: 1.3em;
 }
 img {
-	max-width: 80%;
+	width: 100%;
+	float: right;
 }
 /***********************
 COLORS AND FONTS
