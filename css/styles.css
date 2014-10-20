@@ -19,7 +19,7 @@ h2 {
 	line-height: 1.3em;
 }
 img {
-	width: 100%;
+	max-width: 100%;
 	float: right;
 }
 /***********************
@@ -32,12 +32,14 @@ body {
 /*Links*/
 a {
 	color:#D8FAFF;
+	text-decoration: none;
 }
 /*Paragraph Formating*/
 p{
 	color:#FCF8F7;
 	font-family: 'Lato', sans-serif;
 	font-style: .75em;
+   text-indent: 50px;
 }
 /*Navigation Formating*/
 nav {
@@ -67,10 +69,6 @@ MARGIN AND PADDING
 	background: url("../img/grid-bg.png") repeat-y;
 }
 
-#btext{
-	text-indent: 50px;
-}
-
 #bio{
 	margin-top: 24px;
 }
@@ -84,11 +82,11 @@ MARGIN AND PADDING
 
 	margin-right: 359px;
 }
-#bio-links{
+#links{
 	font-family: 'Lato', sans-serif;
-	color: transparent;
+	color: transparent; 
 }
-h3{
+h3, h4{
 	font-family: 'Lobster',cursive;
 	color: #7DD4CF;
 	background-color: #303030;
