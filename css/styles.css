@@ -1,10 +1,7 @@
-/***********************
-GENERAL
-***********************/
-/* Your Website Styles */
 body{
-	padding: 5px;
+	padding: 20px;
 	font-family: 'Lobster', cursive;
+    background: url("../img/bg.png");
 }
 h1 {
 	color: #80C7E5;
@@ -17,32 +14,30 @@ h2 {
 	margin-right: 618px;
 	font-weight: normal;
 	line-height: 1.3em;
+	width: 371px;
 }
+
 img {
 	max-width: 100%;
-	float: right;
+	float: left;
 }
-/***********************
-COLORS AND FONTS
-***********************/
-/*Site Body*/
-body {
-	background: url("../img/bg.png");
-}
-/*Links*/
-a {
-	color:#D8FAFF;
-	text-decoration: none;
-}
-/*Paragraph Formating*/
+
 p{
 	color:#FCF8F7;
 	font-family: 'Lato', sans-serif;
 	font-style: .75em;
-   text-indent: 50px;
+    text-indent: 25px;
 }
-/*Navigation Formating*/
-nav {
+
+a {
+	color:#D8FAFF;
+	text-decoration: none;
+}
+
+ul {
+  list-style:none;
+}
+nav{
 	font-family: 'Lato', sans-serif;
 	font-size: 1.25em;
 	font-style: bold;
@@ -52,45 +47,39 @@ nav {
 }
 
 nav a{
-	text-decoration: none;
-	color: #7DD4CF;
+  text-decoration: none;
+  color: #7DD4CF;
 }
 
 nav a.selected, nav a:hover{
 	color:#3CFFF4;
 }
 
-
-/***********************
-MARGIN AND PADDING
-***********************/
-/* Show Grid */
-.showgrid {
-	background: url("../img/grid-bg.png") repeat-y;
-}
-
-#bio{
-	margin-top: 24px;
-}
-
-#me {
-	margin-top: 35px;
-	border: 25px;
-}
-
-#blinks{
-
-	margin-right: 359px;
-}
-#links{
-	font-family: 'Lato', sans-serif;
-	color: transparent; 
-}
-h3, h4{
+h3, h4, h5{
 	font-family: 'Lobster',cursive;
 	color: #7DD4CF;
 	background-color: #303030;
 	margin-right: 315px;
 	font-weight: normal;
 	line-height: 1.2em;
+}
+h3{
+	width: 104px;
+}
+h4{
+	width: 111px;
+	height: 19px;
+	margin-left: 170px;
+
+}
+
+#me {
+	margin-top: 35px;
+	border: 25px;
+}
+#minor{
+	width: 260px;
+}
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
 }
