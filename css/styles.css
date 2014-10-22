@@ -54,7 +54,9 @@ nav a{
 nav a.selected, nav a:hover{
 	color:#3CFFF4;
 }
-
+a.selected, a:hover{
+	color: #3CFFF4;
+}
 h3, h4, h5{
 	font-family: 'Lobster',cursive;
 	color: #7DD4CF;
