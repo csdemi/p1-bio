@@ -14,7 +14,7 @@ h2 {
 	margin-right: 618px;
 	font-weight: normal;
 	line-height: 1.3em;
-	width: 397px;
+	width: 326px;
 }
 
 img {
@@ -66,14 +66,14 @@ h3, h4, h5{
 	line-height: 1.2em;
 }
 h3{
-	width: 133px;
+	width: 110px;
 }
 h4{
-	width: 236px;
-	height: 30px;
+	width: 194px;
+	height: 27px;
 }
 h5{
-	width: 174px;
+	width: 144px;
 
 }
 
@@ -88,6 +88,6 @@ h5{
 	background: url("../img/grid-bg.png") repeat-y;
 }
 h2,h3,h4, h5{
-	font-size: 1.5em;
+	font-size: 1.35em;
 	margin-bottom: 10px;
 }
