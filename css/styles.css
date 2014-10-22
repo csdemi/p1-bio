@@ -19,7 +19,7 @@ h2 {
 
 img {
 	max-width: 100%;
-	float: left;
+	float: right;
 }
 
 p{
@@ -67,10 +67,13 @@ h3{
 	width: 104px;
 }
 h4{
-	width: 111px;
-	height: 19px;
-	margin-left: 170px;
+	width: 147px;
+	height: 22px;
+	margin-left: 0px;
 
+}
+h5{
+	max-width: 94px;
 }
 
 #me {
